@@ -11,8 +11,8 @@ services:
       monkeytype-backend:
         condition: service_healthy
     env_file:
-      - path: ./.env
-        required: true
+      - ./.env #se cambia esto pra levantarlo con docker lineas 14 y 15
+    
     environment:
       - FIREBASE_APIKEY=${FIREBASE_APIKEY:-}
       - FIREBASE_AUTHDOMAIN=${FIREBASE_AUTHDOMAIN:-}
