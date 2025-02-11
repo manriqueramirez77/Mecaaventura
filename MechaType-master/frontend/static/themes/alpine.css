@@ -9,4 +9,8 @@
   --error-extra-color: #a62626;
   --colorful-error-color: #e32b2b;
   --colorful-error-extra-color: #a62626;
-}
+  
+  /* Cambia el color de fondo aquí */
+  --bg-color: #87CEEB; /* Celeste */
+} 
+/* solo se cambia el color de fondo*/
