@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #6c687f; /*Background*/
+  --bg-color: #87CEEB; /* Celeste */
   --main-color: #ffffff; /*Color after typing, monkeytype logo, WPM Number acc number etc*/
-  --caret-color: #585568; /*Cursor Color*/
+  --caret-color: #0000ff; /* Cursor Color cambiado a azul */
   --sub-color: #9994b8;
   --sub-alt-color: #77738c; /*WPM text color of scrollbar and general color, before typed color*/
   --text-color: #ffffff; /*Color of text after hovering over it*/
@@ -9,8 +9,4 @@
   --error-extra-color: #a62626;
   --colorful-error-color: #e32b2b;
   --colorful-error-extra-color: #a62626;
-  
-  /* Cambia el color de fondo aquí */
-  --bg-color: #87CEEB; /* Celeste */
 } 
-/* solo se cambia el color de fondo*/
